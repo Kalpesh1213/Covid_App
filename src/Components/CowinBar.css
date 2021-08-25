@@ -1,0 +1,14 @@
+.logo2[_ngcontent-cik-c20] {
+  float: left;
+  margin-left: 7px;
+  width: 185px;
+}
+#dropdown-menu-align-end {
+  background: none;
+  border: none;
+  color: #002060;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  font-weight: 700;
+}

@@ -1,0 +1,47 @@
+.Container {
+  /* box-shadow: 4px 4px 4px grey; */
+  display: flex;
+  text-align: center;
+}
+.Dose_Container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Container_one {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 150px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin: 15px;
+}
+
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: flex-shrink;
+}
+
+p {
+  margin: 0 15px;
+}
+
+select {
+  width: 150px;
+  height: 30px;
+}
+.select_container {
+  margin: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 0 10px;
+  margin: 0 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}

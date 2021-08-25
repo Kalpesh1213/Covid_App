@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { globalStore } from "./Components/Store/Store";
+import { Provider } from "react-redux";
+import MainPage from "./Components/MainPage";
+import CowinBar from "./Components/CowinBar";
+import TopBar from "./Components/TopBar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={globalStore}>
+      <div className='App'>
+        <TopBar />
+        <CowinBar />
+        <MainPage />
+      </div>
+    </Provider>
   );
 }
-
 export default App;

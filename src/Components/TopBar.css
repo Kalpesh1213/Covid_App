@@ -1,0 +1,22 @@
+.top-header {
+  background: #1e3770;
+  display: flex;
+}
+.govindia {
+  margin-left: 10px;
+}
+.logo1 {
+  float: left;
+  height: 60px;
+  width: 30px;
+  margin-top: 4px;
+  margin-right: 8px;
+  display: flex;
+}
+
+.gov {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+}
